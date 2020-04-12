@@ -16,7 +16,7 @@ class _RandomWordsStateState extends State<RandomWordsState> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:,
+      home: HomeScreen(),
     );
   }
 }
