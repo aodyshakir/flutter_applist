@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 import 'package:testapp/src/second_screen.dart';
 
-
 void main() {
   runApp(RandomWordsState());
 }
@@ -17,7 +16,7 @@ class _RandomWordsStateState extends State<RandomWordsState> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: (),
+      home: HomeScreen(),
     );
   }
 }
