@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
       leading: CircleAvatar(
         child: FlutterLogo(
           size: 30,
-          colors: Colors.red,
+          colors: Colors.blue,
         ),
       ),
       title: Text(
